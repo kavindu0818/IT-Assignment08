@@ -1,0 +1,69 @@
+.light{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    top: 10px;
+}
+
+#divMain{
+    position: relative;
+    width: 760px;
+    height: 70px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+    top: 250px;
+    left: 350px;
+}
+
+.lightPro{
+    position: absolute;
+    width: 100px;
+    height: 50px;
+    border: 1px solid black;
+    display: inline-block;
+    top: 10px;
+}
+
+#thoran{
+    background-color: black;
+    height: 600px;
+}
+
+#div1{
+    position: absolute;
+    left: 360px;
+    top: 200px;
+}
+
+#div6{
+    position: absolute;
+    left: 1014px;
+    top: 335px;
+}
+
+#div2{
+
+    position: absolute;
+    left: 150px;
+}
+
+#div3{
+
+    position: absolute;
+    left: 270px;
+}
+
+#div4{
+
+    position: absolute;
+    left: 390px;
+}
+
+#div5{
+
+    position: absolute;
+    left: 510px;
+}
+

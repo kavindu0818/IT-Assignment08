@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Case2</title>
+
+    <link rel="stylesheet" href="css/case2.css">
+
+</head>
+<body>
+
+<section id="thoran">
+
+     <div class="lightPro" id="div1"></div>
+
+     <div id="divMain">
+         <div class="light" id="div2"></div>
+         <div class="light" id="div3"></div>
+         <div class="light" id="div4"></div>
+         <div class="light" id="div5"></div>
+     </div>
+
+     <div class="lightPro" id="div6"></div>
+
+</section>
+
+     <script>
+         var letter = ["red", "green", "blue", "yellow", "#dbafd1", "#f23aa2"];
+         var myInterval;
+
+         function changeTextWithTimeout() {
+             let last = letter.pop();
+             letter.unshift(last);
+
+             $("#div1").css('background-color', letter[0]);
+             $("#div2").css('background-color', letter[1]);
+             $("#div3").css('background-color', letter[2]);
+             $("#div4").css('background-color', letter[3]);
+             $("#div5").css('background-color', letter[4]);
+             $("#div6").css('background-color', letter[5]);
+         }
+
+         myInterval = setInterval(changeTextWithTimeout, 1000);
+
+     </script>
+
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> <!-- Uncommented jQuery link -->
+
+     <script src="
+https://cdn.jsdelivr.net/npm/js-cookie@3.0.5/dist/js.cookie.min.js
+"></script>
+
+<!--<script src="js/case2.js"></script>-->
+<!---->
+</body>
+</html>
